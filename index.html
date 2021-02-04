@@ -5,13 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Rodrigo Diaz Troncoso">
-    <meta name="description" content="Desafio Blog Barbershop">
+    <meta name="description" content="Desafio Resrva de horas">
     <meta name="keywords" content="desafio, latam">
-
-    <!-- Google Fonts -->
-
-    <!--Fontawesome-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
     <!-- Mi style -->
     <link rel="stylesheet" href="assets/css/main.css">
@@ -19,8 +14,53 @@
 </head>
 
 <body>
+    <h1>Reserva de Horas</h1>
 
-    <h1>El compilado ha funcionado</h1>
+    <form class="form">
+        <div>
+            <label>Rut</label>
+            <input type="text" placeholder="Escribe tu rut">
+        </div>
+        <div>
+            <label>Nombres</label>
+            <input type="text" placeholder="Escribe tu nombre">
+        </div>
+        <div>
+            <label>Apellidos</label>
+            <input type="text" placeholder="Escribe tu apellido">
+        </div>
+        <div>
+            <label>Edad</label>
+            <input type="text" placeholder="Escribe tu edad">
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="text" placeholder="Escribe tu email">
+        </div>
+        <div>
+            <labe>Especialidad</label>
+                <select>
+                    <option value="1">Especialidad 1</option>
+                    <option value="2">Especialidad 2</option>
+                    <option value="3">Especialidad 3</option>
+                </select>
+        </div>
+        <div>
+            <label>Fecha</label>
+            <input type="date">
+        </div>
+        <div>
+            <labe>Hora</label>
+                <select>
+                    <option value="1">08:00</option>
+                    <option value="2">09:00</option>
+                    <option value="3">10:00</option>
+                </select>
+        </div>
+        <button type="submit">Reservar</button>
+    </form>
+
+    <script text="text/javascript" src="assets/js/script.js"></script>
 </body>
 
 </html>
