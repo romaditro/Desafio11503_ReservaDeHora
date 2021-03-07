@@ -9896,9 +9896,77 @@ h3 {
     border-color: #dee2e6;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 h1 {
-  font-family: monospace;
-  color: peru;
+  text-align: center;
+  color: white;
+}
+
+.alert-warning {
+  color: red;
+  text-align: center;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #6e9e41;
+  box-sizing: border-box;
+}
+
+form {
+  background-color: #e0dfdf;
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+  padding: 30px;
+  margin: 0 auto;
+  width: 500px;
+}
+
+input {
+  border-radius: 3px;
+  outline: none;
+  margin-bottom: 10px;
+  margin-left: 75px;
+  width: 280px;
+  height: 30px;
+}
+
+.inputcss {
+  border: solid 1px #ccc;
+  padding: 10px;
+}
+
+.inputcss:focus {
+  border-color: #7cc1fa;
+}
+
+.center-content {
+  text-align: center;
+}
+
+select {
+  border-radius: 3px;
+  outline: none;
+  margin-bottom: 10px;
+  margin-left: 75px;
+  width: 280px;
+  height: 40px;
 }
 
 /*# sourceMappingURL=main.css.map */

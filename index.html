@@ -5,62 +5,42 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Rodrigo Diaz Troncoso">
-    <meta name="description" content="Desafio Resrva de horas">
+    <meta name="description" content="Desafio Reserva de hora">
     <meta name="keywords" content="desafio, latam">
 
     <!-- Mi style -->
     <link rel="stylesheet" href="assets/css/main.css">
-    <title>Titulo</title>
+    <title>Resrva de Horas</title>
 </head>
 
 <body>
-    <h1>Reserva de Horas</h1>
-
-    <form class="form">
-        <div>
-            <label>Rut</label>
-            <input type="text" placeholder="Escribe tu rut">
+    <h1>Formulario de Reserva de Horas</h1>
+    <form class="form-register" id="formulario">
+        <div class="contenedor-inputs">
+            <input type="text" id="rut" name="rut" placeholder="Rut" class="inputcss">
+            <input type="text" id="nombre" name="nombre" placeholder="Nombres" class="inputcss" maxlength="100">
+            <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" class="inputcss" maxlength="100">
+            <input type="text" id="edad" name="edad" placeholder="Edad" class="inputcss" maxlength="3">
+            <input type="email" id="correo" name="correo" placeholder="Correo" class="inputcss" maxlength="100">
+            <select id="especialidad"  class="inputcss">
+                <option value="Especialidad">Urgencia</option>
+                <option value="Pediatria">Pediatria</option>
+                <option value="Neurocirugia">Neurocirugia</option>
+            </select>
+            <input type="date" id="fecha"  class="inputcss" maxlength="10" >
+            <select id="hora"  class="inputcss">
+                <option value="08:00">08:00</option>
+                <option value="09:00">09:00</option>
+                <option value="10:00">10:00</option>
+                <option value="10:00">11:00</option>
+                <option value="10:00">12:00</option>
+            </select>
+            <input type="button" id="btn_registrar" value="Reservar" class="btn-enviar">
+            <p id="msjValidacion" class="alert-warning"></p>
         </div>
-        <div>
-            <label>Nombres</label>
-            <input type="text" placeholder="Escribe tu nombre">
-        </div>
-        <div>
-            <label>Apellidos</label>
-            <input type="text" placeholder="Escribe tu apellido">
-        </div>
-        <div>
-            <label>Edad</label>
-            <input type="text" placeholder="Escribe tu edad">
-        </div>
-        <div>
-            <label>Email</label>
-            <input type="text" placeholder="Escribe tu email">
-        </div>
-        <div>
-            <labe>Especialidad</label>
-                <select>
-                    <option value="1">Especialidad 1</option>
-                    <option value="2">Especialidad 2</option>
-                    <option value="3">Especialidad 3</option>
-                </select>
-        </div>
-        <div>
-            <label>Fecha</label>
-            <input type="date">
-        </div>
-        <div>
-            <labe>Hora</label>
-                <select>
-                    <option value="1">08:00</option>
-                    <option value="2">09:00</option>
-                    <option value="3">10:00</option>
-                </select>
-        </div>
-        <button type="submit">Reservar</button>
     </form>
 
-    <script text="text/javascript" src="assets/js/script.js"></script>
+    <script type="text/javascript" src="assets/js/script.js?ID=1"></script>
 </body>
 
 </html>
